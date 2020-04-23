@@ -46,11 +46,13 @@ html {
 body {
   font-size: 1.5rem;
   font-family: 'Montserrat', sans-serif;
-  color: linear-gradient(#a3a8f0, #696fdd); }
+  background-color: #f6f6fe; }
 
 .container {
   max-width: 98rem;
-  margin: 0 auto; }
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center; }
 
 .row {
   display: flex;
@@ -59,7 +61,7 @@ body {
   align-items: center; }
 
 .col-1 {
-  width: 50%; }
+  width: 33%; }
 
 img {
   max-width: 100%; }

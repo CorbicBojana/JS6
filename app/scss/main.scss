@@ -15,14 +15,16 @@ html {
   body {
     font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
-    color: $primary-color;
+    background-color: $very-light-grayish-blue;
   }
   
   .container {
     max-width: 98rem;
+    height: 100vh;
     margin: 0 auto;
+    text-align: center;
   }
-  
+
   .row {
     display: flex;
     flex-wrap: wrap;
@@ -31,7 +33,7 @@ html {
   }
   
   .col-1 {
-    width: 50%;
+    width: 33%;
   }
 
   img {
