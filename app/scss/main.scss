@@ -33,11 +33,56 @@ html {
   }
   
   .col-1 {
-    width: 33%;
+    width: 30%;
+    padding: 2rem;
+    background-color: $white-color;
+    border-radius: 0.6rem;
+    box-shadow: 0 1rem 1rem 0 $light-grayish-blue;
+    position: relative;
+    z-index: 10;
+  }
+
+  .col-blue {
+    height: 60vh;
+    background-image: $primary-color;
   }
 
   img {
     max-width: 100%;
+  }
+
+  .img-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 80vh;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  .img-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .button {
+    width: 100%;
+    padding: 1rem;
+    background-image: $primary-color;
+    color: $white-color;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 0.6rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    &:hover {
+      color: $grayish-blue;      
+    }
   }
 
   @import "media";
