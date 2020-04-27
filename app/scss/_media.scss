@@ -1,3 +1,38 @@
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 780px) {
+
+    body {
+        overflow: hidden auto;
+    }
+
+    .col-1 {
+        width: 100%;
+        margin: 0 3rem 3rem;
+
+        &:last-child {
+            margin: 0 3rem 6rem 3rem;
+        }
+    }
+
+    .col-blue {
+        height: auto;
+
+        h4 {
+            margin-top: 0;
+        }
+    }
+
+    .img-top {
+        right: -12rem;
+        height: 60vh;
+    }
+
+    .img-bottom {
+        display: none;
+    }
+
+    .intro {
+        position: relative;
+        z-index: 10;
+    }
 
 }
