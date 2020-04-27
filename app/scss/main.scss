@@ -46,6 +46,19 @@ html {
   .col-blue {
     height: 60vh;
     background-image: $primary-color;
+    color: $white-color;
+
+    h2 {
+      color: $white-color;
+    }
+
+    .list-item-white {
+      border-top: 0.1rem solid $white-color;
+
+      &:last-child {
+        border-bottom: 0.1rem solid $white-color;
+      }
+    }
   }
 
   img {

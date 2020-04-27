@@ -72,7 +72,14 @@ body {
 
 .col-blue {
   height: 60vh;
-  background-image: linear-gradient(to right, #a3a8f0, #696fdd); }
+  background-image: linear-gradient(to right, #a3a8f0, #696fdd);
+  color: white; }
+  .col-blue h2 {
+    color: white; }
+  .col-blue .list-item-white {
+    border-top: 0.1rem solid white; }
+    .col-blue .list-item-white:last-child {
+      border-bottom: 0.1rem solid white; }
 
 img {
   max-width: 100%; }
