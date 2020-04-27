@@ -77,9 +77,17 @@ body {
   .col-blue h2 {
     color: white; }
   .col-blue .list-item-white {
-    border-top: 0.1rem solid white; }
+    border-top: 0.1rem solid #f6f6fe; }
     .col-blue .list-item-white:last-child {
-      border-bottom: 0.1rem solid white; }
+      border-bottom: 0.1rem solid #f6f6fe; }
+  .col-blue .button {
+    background: white;
+    color: #6d708d;
+    border-radius: 0.6rem; }
+    .col-blue .button:hover {
+      background: transparent;
+      color: white;
+      border: 0.2rem solid white; }
 
 img {
   max-width: 100%; }
@@ -113,11 +121,19 @@ img {
   font-weight: 700;
   text-transform: uppercase;
   border-radius: 0.6rem;
-  border: none;
+  border: 0.2rem solid transparent;
   outline: none;
   cursor: pointer; }
   .button:hover {
-    color: #6d708d; }
+    background: white;
+    color: #6d708d;
+    border: 0.2rem solid #6d708d; }
+
+.intro {
+  margin: 4rem 0; }
+  .intro h1 {
+    font-size: 3.4rem;
+    margin-bottom: 3rem; }
 
 h2 {
   margin-bottom: 3rem;

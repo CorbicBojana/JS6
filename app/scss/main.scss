@@ -53,10 +53,22 @@ html {
     }
 
     .list-item-white {
-      border-top: 0.1rem solid $white-color;
+      border-top: 0.1rem solid $very-light-grayish-blue;
 
       &:last-child {
-        border-bottom: 0.1rem solid $white-color;
+        border-bottom: 0.1rem solid $very-light-grayish-blue;
+      }
+    }
+
+    .button {
+      background: $white-color;
+      color: $grayish-blue;
+      border-radius: 0.6rem;
+  
+      &:hover {
+        background: transparent;
+        color: $white-color; 
+        border: 0.2rem solid $white-color;   
       }
     }
   }
@@ -103,12 +115,22 @@ html {
     font-weight: 700;
     text-transform: uppercase;
     border-radius: 0.6rem;
-    border: none;
+    border: 0.2rem solid transparent;
     outline: none;
     cursor: pointer;
 
     &:hover {
-      color: $grayish-blue;      
+      background: $white-color;
+      color: $grayish-blue; 
+      border: 0.2rem solid $grayish-blue;    }
+  }
+
+  .intro {
+    margin: 4rem 0;
+
+    h1 {
+      font-size: 3.4rem;
+      margin-bottom: 3rem;
     }
   }
 
