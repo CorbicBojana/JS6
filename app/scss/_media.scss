@@ -1,20 +1,21 @@
 @media only screen and (max-width: 780px) {
 
-    body {
-        overflow: hidden auto;
+    .row {
+        height: auto;
+        padding: 20% 10% 10%
     }
 
-    .col-1 {
+    .col-1, .col-3 {
         width: 100%;
-        margin: 0 3rem 3rem;
+    }
 
-        &:last-child {
-            margin: 0 3rem 6rem 3rem;
-        }
+    .col-3 {
+        max-width: 100%;
+        margin-bottom: 2.8rem;
     }
 
     .col-blue {
-        height: auto;
+        min-height: 100%;
 
         h4 {
             margin-top: 0;
@@ -34,5 +35,4 @@
         position: relative;
         z-index: 10;
     }
-
 }
